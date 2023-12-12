@@ -5,22 +5,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lernantino // Web Developer</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>Harry Newton // Web Developer</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
 <body>
   <!-- main logo / nav -->
   <header>
-    <h1>Lernantino</h1>
+    <h1 id="main-title">Harry Newton // Front-end Web Developer</h1>
     <nav>
+      <a id="link-one" href="#about">About Me</a>
+      <a id="link-two" href="#work">My Work</a>
+      <a id="link-three" href="#contact">Contact</a>
     </nav>
   </header>
 
   <!-- hero banner -->
   <section class="hero-banner">
     <div>
-      <h2>Cool subtitle here!</h2>
+      <img id="profile" alt="Harry Newton Profile Pic" src="assets/images/harrynewton.jpeg">
+      <h2>Hi I'm Harry, an aspiring web developer!</h2>
     </div>
   </section>
 
@@ -28,16 +32,47 @@
     <!-- about me -->
     <section class="page-section" id="about">
       <h2>About Me</h2>
+      <p>I began coding in November 2023, and since then I have gained experience in HTML, CSS, Javascript and more! I
+        am always open to learning new coding principles, and the 'growth mindset' lies at the heart of my learning. I
+        am open to collaborate on new projects, to see my previous projects, as well as my contact info, keep scrolling!
+      </p>
     </section>
 
     <!-- portfolio container -->
     <section class="page-section" id="work">
-      <h2>Work</h2>
+      <h2>My Work</h2>
+      <div id="project-container">
+        <section id="project-one">
+          <h3>Project 1</h3>
+        </section>
+        <div class="project-row">
+          <section id="project-two" class="projects">
+            <h3>Project 2</h3>
+          </section>
+          <section id="project-three" class="projects">
+            <h3>Project 3</h3>
+          </section>
+        </div>
+        <div class="project-row">
+          <section id="project-four" class="projects">
+            <h3>Project 4</h3>
+          </section>
+          <section id="project-five" class="projects">
+            <h3>Project 5</h3>
+          </section>
+        </div>
+      </div>
     </section>
 
     <!-- contact -->
     <section class="page-section contact" id="contact">
       <h2>Contact Me</h2>
+      <ul>
+        <li>+555 555 555</li>
+        <li>hello@world.com</li>
+        <li>Github</li>
+        <li>LinkedIn</li>
+      </ul>
     </section>
   </main>
 </body>
